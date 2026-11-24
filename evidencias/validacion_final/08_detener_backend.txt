@@ -1,0 +1,2 @@
+ Container catedra-2-especialidad-backend-1 Stopping 
+ Container catedra-2-especialidad-backend-1 Stopped 

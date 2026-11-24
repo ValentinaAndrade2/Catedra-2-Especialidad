@@ -1,0 +1,4 @@
+ Container catedra-2-especialidad-db-1 Waiting 
+ Container catedra-2-especialidad-db-1 Healthy 
+ Container catedra-2-especialidad-backend-1 Starting 
+ Container catedra-2-especialidad-backend-1 Started 

@@ -1,0 +1,1 @@
+Estado=exited CodigoSalida=0 Finalizo=2026-11-24T11:19:32.421789634Z
