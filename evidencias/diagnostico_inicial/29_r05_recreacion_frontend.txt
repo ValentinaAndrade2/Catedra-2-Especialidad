@@ -1,0 +1,6 @@
+ Container catedra-2-especialidad-db-1 Running 
+ Container catedra-2-especialidad-backend-1 Running 
+ Container catedra-2-especialidad-frontend-1 Recreate 
+ Container catedra-2-especialidad-frontend-1 Recreated 
+ Container catedra-2-especialidad-frontend-1 Starting 
+ Container catedra-2-especialidad-frontend-1 Started 
