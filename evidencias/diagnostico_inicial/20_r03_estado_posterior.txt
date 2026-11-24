@@ -1,0 +1,4 @@
+NAME                                IMAGE                             COMMAND                  SERVICE    CREATED             STATUS                     PORTS
+catedra-2-especialidad-backend-1    catedra-2-especialidad-backend    "uvicorn main:app --…"   backend    5 seconds ago       Exited (3) 3 seconds ago   
+catedra-2-especialidad-db-1         postgres:16-alpine                "docker-entrypoint.s…"   db         About an hour ago   Up About an hour           5432/tcp
+catedra-2-especialidad-frontend-1   catedra-2-especialidad-frontend   "/docker-entrypoint.…"   frontend   About an hour ago   Up About an hour           80/tcp, 0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp

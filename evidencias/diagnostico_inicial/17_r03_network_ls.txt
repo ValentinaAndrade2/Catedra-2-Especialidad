@@ -1,0 +1,5 @@
+NETWORK ID     NAME                             DRIVER    SCOPE
+13761deb060c   bridge                           bridge    local
+5d002cc64d3b   catedra-2-especialidad_default   bridge    local
+6193643742bd   host                             host      local
+bad5e27a05b8   none                             null      local

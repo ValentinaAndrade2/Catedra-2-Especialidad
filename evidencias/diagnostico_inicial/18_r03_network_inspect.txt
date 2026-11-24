@@ -1,0 +1,61 @@
+[
+    {
+        "Name": "catedra-2-especialidad_default",
+        "Id": "5d002cc64d3b0bfcc722539c4db5930cd4c1e2e0a41c363b3fa8f44e4df5813f",
+        "Created": "2026-11-24T04:00:42.67105354Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.config-hash": "341aa5d3a0eb492edcd01918dab13586182a3451a29b861a4e22adc19f145877",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "catedra-2-especialidad",
+            "com.docker.compose.version": "5.6.1"
+        },
+        "Containers": {
+            "63879edbbf643c77601b3f6f25ffbb342389ddf1047e8a17057c1aee9246eca9": {
+                "Name": "catedra-2-especialidad-frontend-1",
+                "EndpointID": "ca08d5b473d9c4727444fe121d6c031d579249e8429ebd7d8c616418f9ee23f4",
+                "MacAddress": "ee:e7:5d:e6:3e:09",
+                "IPv4Address": "172.18.0.4/16",
+                "IPv6Address": ""
+            },
+            "ce4bda77f0b0d5bd33212b036a8c521e0d368561197f3778f8cf3f2d0792598f": {
+                "Name": "catedra-2-especialidad-db-1",
+                "EndpointID": "15d95515c5dbd3623ed53eb27683acd4e8774e3f1eda40d3222cabd6bf1e6f49",
+                "MacAddress": "e6:01:64:f9:1a:72",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.18.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    }
+]
