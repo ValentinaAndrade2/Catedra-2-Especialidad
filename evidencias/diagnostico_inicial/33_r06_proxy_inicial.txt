@@ -1,0 +1,5 @@
+12:    location /api/ {
+13-        proxy_pass http://localhost:8000/;
+14-        proxy_set_header Host $host;
+15-        proxy_set_header X-Real-IP $remote_addr;
+16-    }
