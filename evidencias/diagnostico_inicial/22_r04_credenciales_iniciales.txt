@@ -1,0 +1,2 @@
+12:      DATABASE_URL: "postgresql://appuser:wrongpass@db:5432/appdb"
+20:      POSTGRES_PASSWORD: rescue123
