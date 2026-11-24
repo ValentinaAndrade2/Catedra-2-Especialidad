@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS                      PORTS                                                 NAMES
+63879edbbf64   catedra-2-especialidad-frontend   "/docker-entrypoint.…"   18 minutes ago   Up 18 minutes               80/tcp, 0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   catedra-2-especialidad-frontend-1
+ca25c17332f7   catedra-2-especialidad-backend    "uvicorn app:app --h…"   18 minutes ago   Exited (1) 18 minutes ago                                                         catedra-2-especialidad-backend-1
+ce4bda77f0b0   postgres:16-alpine                "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes               5432/tcp                                              catedra-2-especialidad-db-1
